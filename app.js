@@ -1213,7 +1213,7 @@ const NAV = [
     {id:'start', label:'Getting started', icon:'dashboard'},
   ]},
   {group:'Workflow', items:[
-    {id:'cases', label:'Cases', icon:'cases', count:()=>CASES.filter(c=>c.status!=='Decision Locked').length},
+    {id:'cases', label:'Cases', icon:'cases', count:()=>CASES.length},
   ]},
 ];
 const PAGE_META = {
